@@ -1,4 +1,4 @@
-## Prerequisites
+### Prerequisites
 Before setting up the environment, ensure you have the following installed:
 
 + Python 3.10+
