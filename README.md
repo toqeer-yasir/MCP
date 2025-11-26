@@ -1,4 +1,4 @@
-###📋 Prerequisites
+##Prerequisites
 Before setting up the environment, ensure you have the following installed:
 
 + Python 3.10+
@@ -7,7 +7,7 @@ Before setting up the environment, ensure you have the following installed:
 
 + Node.js (For MCP inspector and some clients)
 
-##🛠️ Setup & Installation
+🛠️ ##Setup & Installation
 #1. Clone the Repository
 ```bash
 git clone https://github.com/toqeer-yasir/MCP.git
