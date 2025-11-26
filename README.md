@@ -1,4 +1,4 @@
-##📋 Prerequisites
+###📋 Prerequisites
 Before setting up the environment, ensure you have the following installed:
 
 + Python 3.10+
@@ -56,17 +56,6 @@ Remote MCP Servers - Cloud-hosted MCP services
 Client implementations to connect with MCP servers
 
 Example integrations and usage patterns
-
-📁 Directory Layout
-text
-MCP/
-├── servers/           # MCP server implementations
-│   ├── local/        # Local MCP servers
-│   └── remote/       # Remote MCP server configurations
-├── clients/          # MCP client implementations
-├── examples/         # Usage examples
-└── docs/            # Documentation
-🚀 Quick Start
 Set up a local server:
 
 ```bash
@@ -78,5 +67,4 @@ Connect with a client:
 cd clients
 python client_example.py
 ```
-___
 ___
