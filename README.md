@@ -32,4 +32,4 @@ fastmcp dev server_name.py
 ```bash
 npx @modelcontextprotocol/inspector python file_name.py
 ```
--
+_ _
