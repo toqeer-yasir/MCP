@@ -1,4 +1,4 @@
-##Prerequisites
+## Prerequisites
 Before setting up the environment, ensure you have the following installed:
 
 + Python 3.10+
@@ -7,13 +7,13 @@ Before setting up the environment, ensure you have the following installed:
 
 + Node.js (For MCP inspector and some clients)
 
-🛠️ ##Setup & Installation
-#1. Clone the Repository
+## Setup & Installation
+# 1. Clone the Repository
 ```bash
 git clone https://github.com/toqeer-yasir/MCP.git
 cd MCP
 ```
-#2. Environment Setup & Dependencies
+# 2. Environment Setup & Dependencies
 ```bash
 # Initialize the project with UV
 uv init .
@@ -25,7 +25,7 @@ uv add fastmcp
 # or alternatively
 uv pip install fastmcp
 ```
-#3. Verify Installation
+# 3. Verify Installation
 ```bash
 python -c "import fastmcp; print('FastMCP installed successfully!')"
 ```
@@ -40,12 +40,12 @@ Alternative Methods
 # Direct FastMCP command
 fastmcp dev server_name.py
 ```
-# If both above don't work, use MCP inspector
+**If both above don't work, use MCP inspector**
 ```bash
 npx @modelcontextprotocol/inspector python file_name.py
 ```
-🏗️ Project Structure
-This repository contains:
+🏗️ **Project Structure**
+*This repository contains:*
 
 🔧 MCP Servers
 Local MCP Servers - Run directly on your machine
