@@ -1,35 +1,82 @@
-# MCP Server
+##📋 Prerequisites
+Before setting up the environment, ensure you have the following installed:
 
-A Model Context Protocol (MCP) server built using the FastMCP framework. This server provides tools and resources for various tasks and integrations.
++ Python 3.10+
 
-## Prerequisites
++ UV (High-performance Python package manager)
 
-Before setting up the environment, make sure you have the following installed:
++ Node.js (For MCP inspector and some clients)
 
-- **Python 3.10+**
-- **uv** (package manager faster than *pip* and compatible with fastmcp)
-
-- ## Setup
-
-### 1. Clone the Repository
+##🛠️ Setup & Installation
+#1. Clone the Repository
 ```bash
 git clone https://github.com/toqeer-yasir/MCP.git
 cd MCP
 ```
-### 2. Installation & Inintialization
-1) uv init .
-2) uv add fastmcp or uv pip install fastmcp
-
-## How to test server?
+#2. Environment Setup & Dependencies
 ```bash
-uv fastmcp dev servr_name.py
+# Initialize the project with UV
+uv init .
 ```
-*or*
+Install FastMCP framework
+
 ```bash
+uv add fastmcp
+# or alternatively
+uv pip install fastmcp
+```
+#3. Verify Installation
+```bash
+python -c "import fastmcp; print('FastMCP installed successfully!')"
+```
+🧪 Testing Your Server
+Development Mode
+```bash
+# Primary method with UV
+uv fastmcp dev server_name.py
+Alternative Methods
+```
+```bash
+# Direct FastMCP command
 fastmcp dev server_name.py
 ```
-*If both above dosen't work then try this:*
+# If both above don't work, use MCP inspector
 ```bash
 npx @modelcontextprotocol/inspector python file_name.py
 ```
-_ _
+🏗️ Project Structure
+This repository contains:
+
+🔧 MCP Servers
+Local MCP Servers - Run directly on your machine
+
+Remote MCP Servers - Cloud-hosted MCP services
+
+💻 MCP Clients
+Client implementations to connect with MCP servers
+
+Example integrations and usage patterns
+
+📁 Directory Layout
+text
+MCP/
+├── servers/           # MCP server implementations
+│   ├── local/        # Local MCP servers
+│   └── remote/       # Remote MCP server configurations
+├── clients/          # MCP client implementations
+├── examples/         # Usage examples
+└── docs/            # Documentation
+🚀 Quick Start
+Set up a local server:
+
+```bash
+cd servers/local
+uv fastmcp dev your_server.py
+```
+Connect with a client:
+```bash
+cd clients
+python client_example.py
+```
+___
+___
